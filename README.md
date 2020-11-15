@@ -22,3 +22,8 @@
 ## yarn (from Facebook)
 
 - npm을 보한 하기위해서 만든 패키지 매니저
+
+## react-dom
+
+- 브라우저는 html, js, css만을 이해할 수 있다!
+  - react-dom 알고리즘이 render함수가 연결시켜줘서 동작하게 된다.
