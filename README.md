@@ -6,3 +6,8 @@
 
 [React](https://reactjs.org/docs/getting-started.html)
 [Create React App](https://create-react-app.dev/docs/getting-started)
+
+## nodejs
+
+- 자바스크립트를 실행하는 환경
+  - 웹 브라우저 밖에서도 자바스크립트를 작성할 수 있다.
