@@ -1,5 +1,6 @@
 import React from "react";
+import Habbits from "./components/habbits";
 
 export default function App() {
-  return <h1>Hello world</h1>;
+  return <Habbits />;
 }
