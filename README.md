@@ -4,8 +4,9 @@
    - 알아서 착착
 2. 가상의 돔 트리를 메모리에 가지고 있다가 한 번에 업데이트를 진행한다.
 
-[React](https://reactjs.org/docs/getting-started.html)
-[Create React App](https://create-react-app.dev/docs/getting-started)
+3. [React](https://reactjs.org/docs/getting-started.html)
+4. [Create React App](https://create-react-app.dev/docs/getting-started)
+   - 리액트 개발을 환경을 자동으로 구현하는 툴!
 
 ## nodejs
 
