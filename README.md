@@ -11,3 +11,13 @@
 
 - 자바스크립트를 실행하는 환경
   - 웹 브라우저 밖에서도 자바스크립트를 작성할 수 있다.
+
+## npm (package manager)
+
+- publish and share course code of node.js packages simplify installation, updating, and uninstallation of packages
+
+## npx (tool for excuting packages)
+
+## yarn (from Facebook)
+
+- npm을 보한 하기위해서 만든 패키지 매니저
