@@ -7,11 +7,7 @@ import "./app.css";
 
 export default class App extends Component {
   state = {
-    habits: [
-      { id: 1, name: "Reading", count: 0 },
-      { id: 2, name: "Running", count: 4 },
-      { id: 3, name: "Da", count: 40 },
-    ],
+    habits: [],
   };
 
   handleIncrement = (habit) => {
@@ -37,6 +33,14 @@ export default class App extends Component {
     this.setState({ habits });
   };
 
+  handleReset = () => {
+    const habits = this.state.habits.map((item) => ({
+      ...item,
+      count: 0,
+    }));
+    this.setState({ habits });
+  };
+
   render() {
     return (
       <>
@@ -50,6 +54,9 @@ export default class App extends Component {
           onDecrement={this.handleDecrement}
           onDelete={this.handleDelete}
         />
+        <button className="habits-reset" onClick={this.handleReset}>
+          Reset All
+        </button>
       </>
     );
   }
