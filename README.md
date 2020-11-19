@@ -21,7 +21,7 @@
 
 ## yarn (from Facebook)
 
-- npm을 보한 하기위해서 만든 패키지 매니저
+- npm을 보한 하기위해서 만든 패키지
 
 [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 [JSX In Depth](https://reactjs.org/docs/jsx-in-depth.html)
